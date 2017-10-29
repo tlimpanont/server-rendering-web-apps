@@ -21,7 +21,7 @@ In deze repo werk ik oplossing nummer 2 uit zoals beschreven in het artikel
 
 Met Node/Express framework kun je http url routering regelen via bijv. `app.get('/app1'), app.get('/app2')`. De bedoeling is dat voor elke url een (gebuild and optimized) stand alone webapp wordt geladen. 
 
-Elke webapp heeft zijn eigen template met daarin de juiste HTML en verwijzing naar het gebuilde javacript bestand. 
+Elke webapp heeft zijn eigen template met daarin de juiste HTML en verwijzing naar het gebuilde javascript bestand. 
 ![Views template for each webapp](https://i.snag.gy/EyOarq.jpg)
 
 Bijv. voor Angular App
