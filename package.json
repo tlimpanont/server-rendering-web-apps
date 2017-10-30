@@ -2,6 +2,7 @@
   "name": "server-rendering-webapps",
   "version": "0.0.0",
   "scripts": {
+    "nodemon": "./node_modules/.bin/nodemon",
     "start": "nodemon bin/www --exec babel-node --presets es2015,stage-2,react"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "commitizen": "^2.9.6",
-    "conventional-changelog": "^1.1.6"
+    "conventional-changelog": "^1.1.6",
+    "nodemon": "^1.12.1"
   }
 }
